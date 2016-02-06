@@ -99,8 +99,8 @@ var whoosh = new Sound('whoosh.mp3', Sound.MAIN_BUNDLE, (error) => {
   if (error) {
     console.log('failed to load the sound', error);
   } else { // loaded successfully
-    console.log('duration in seconds: ' + whoosh.duration +
-        'number of channels: ' + whoosh.numberOfChannels);
+    console.log('duration in seconds: ' + whoosh._duration +
+        'number of channels: ' + whoosh._numberOfChannels);
   }
 });
 
